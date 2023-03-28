@@ -46,5 +46,15 @@
 
 .navbar__menu {
     display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__menu a {
+    color: white;
+}
+
+.navbar__item {
+    height: 80px;
 }
 
