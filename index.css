@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+body {
+    height: 200vh;
+    background-color: g;
+}
+
 .navbar {
     background: #131313;
     height: 80px;
@@ -102,5 +107,42 @@
         height: 80px;
         z-index: 1;
         width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar__menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        /*top: -1000px;*/
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+        background: #131313;
+    }
+
+    .navbar__menu.active {
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+    }
+
+    #navbar_logo {
+        padding-left: 25px;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s easy ease-in-out;
+        background: white;
     }
 }
