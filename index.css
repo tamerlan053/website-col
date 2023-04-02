@@ -272,3 +272,9 @@
     background-color: #131313;
     padding: 10rem 0;
 }
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
