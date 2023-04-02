@@ -267,3 +267,8 @@
         font-size: 40px;
     }
 }
+
+.main {
+    background-color: #131313;
+    padding: 10rem 0;
+}
