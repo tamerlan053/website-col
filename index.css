@@ -367,3 +367,23 @@
 .main__btn:hover {
     color: #fff;
 }
+
+.main__btn:hover::after {
+    width: 100%;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 10%, #fc00ff 100%);
+}
