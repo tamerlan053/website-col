@@ -352,7 +352,7 @@
     text-decoration: none;
 }
 
-.main__btn::after {
+.main__btn:after {
     position: absolute;
     content: '';
     top: 0;
@@ -362,4 +362,8 @@
     background: #ff1ead;
     transition: all 0.35s;
     border-radius: 4px;
+}
+
+.main__btn:hover {
+    color: #fff;
 }
