@@ -407,4 +407,14 @@
         margin: 0 auto;
         height: 90%;
     }
+
+    .main__img--container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__img--card {
+        height: 425px;
+        width: 425px;
+    }
 }
